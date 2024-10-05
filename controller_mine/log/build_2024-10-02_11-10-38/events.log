@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.001040] (-) JobUnselected: {'identifier': 'position_gazebo_plugin'}
+[0.001282] (-) JobUnselected: {'identifier': 'px4_offboard'}
+[0.001688] (-) JobUnselected: {'identifier': 'rosmsgs'}
+[0.001891] (prova_controller) JobQueued: {'identifier': 'prova_controller', 'dependencies': OrderedDict()}
+[0.001943] (prova_controller) JobStarted: {'identifier': 'prova_controller'}
+[0.099190] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.301358] (-) TimerEvent: {}
+[0.401944] (-) TimerEvent: {}
+[0.502232] (-) TimerEvent: {}
+[0.602874] (-) TimerEvent: {}
+[0.703363] (-) TimerEvent: {}
+[0.804256] (-) TimerEvent: {}
+[0.904743] (-) TimerEvent: {}
+[1.005596] (-) TimerEvent: {}
+[1.106079] (-) TimerEvent: {}
+[1.207398] (-) TimerEvent: {}
+[1.307979] (-) TimerEvent: {}
+[1.408333] (-) TimerEvent: {}
+[1.509160] (-) TimerEvent: {}
+[1.513276] (prova_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/prova_controller', 'build', '--build-base', '/root/controller_mine/build/prova_controller/build', 'install', '--record', '/root/controller_mine/build/prova_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/controller_mine/src/prova_controller', 'env': {'HOSTNAME': 'davide-XPS-15-9570', 'GIT_ASKPASS': '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh', 'LOCAL_USER_ID': '1000', 'HOME': '/root', 'OLDPWD': '/root/controller_mine', 'TERM_PROGRAM_VERSION': '1.93.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-20db0697-d55b-42f3-bf23-63585922af11.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/root/controller_mine/install:/root/ws_sensor_combined/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d21f56f1-6972-476f-84b9-f989795c94f7.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-d21f56f1-6972-476f-84b9-f989795c94f7.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-6caeb53bc6.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-d21f56f1-6972-476f-84b9-f989795c94f7.sock', 'AMENT_PREFIX_PATH': '/root/controller_mine/install/prova_controller:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/controller_mine/build/prova_controller', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:', 'PYTHONPATH': '/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs'}, 'shell': False}
+[1.609387] (-) TimerEvent: {}
+[1.709893] (-) TimerEvent: {}
+[1.810790] (-) TimerEvent: {}
+[1.911413] (-) TimerEvent: {}
+[2.011729] (-) TimerEvent: {}
+[2.112090] (-) TimerEvent: {}
+[2.113111] (prova_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.114583] (prova_controller) StdoutLine: {'line': b'writing ../../build/prova_controller/prova_controller.egg-info/PKG-INFO\n'}
+[2.115003] (prova_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/prova_controller/prova_controller.egg-info/dependency_links.txt\n'}
+[2.115200] (prova_controller) StdoutLine: {'line': b'writing entry points to ../../build/prova_controller/prova_controller.egg-info/entry_points.txt\n'}
+[2.115328] (prova_controller) StdoutLine: {'line': b'writing requirements to ../../build/prova_controller/prova_controller.egg-info/requires.txt\n'}
+[2.115441] (prova_controller) StdoutLine: {'line': b'writing top-level names to ../../build/prova_controller/prova_controller.egg-info/top_level.txt\n'}
+[2.120057] (prova_controller) StdoutLine: {'line': b"reading manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'\n"}
+[2.121268] (prova_controller) StdoutLine: {'line': b"writing manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'\n"}
+[2.121511] (prova_controller) StdoutLine: {'line': b'running build\n'}
+[2.121587] (prova_controller) StdoutLine: {'line': b'running build_py\n'}
+[2.122109] (prova_controller) StdoutLine: {'line': b'copying prova_controller/EKF_tmp.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller\n'}
+[2.122589] (prova_controller) StdoutLine: {'line': b'running install\n'}
+[2.123048] (prova_controller) StdoutLine: {'line': b'running install_lib\n'}
+[2.124351] (prova_controller) StdoutLine: {'line': b'copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/EKF_tmp.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller\n'}
+[2.125785] (prova_controller) StdoutLine: {'line': b'byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/EKF_tmp.py to EKF_tmp.cpython-310.pyc\n'}
+[2.127366] (prova_controller) StdoutLine: {'line': b'running install_data\n'}
+[2.127649] (prova_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.132985] (prova_controller) StdoutLine: {'line': b"removing '/root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.133570] (prova_controller) StdoutLine: {'line': b'Copying ../../build/prova_controller/prova_controller.egg-info to /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller-0.0.0-py3.10.egg-info\n'}
+[2.135669] (prova_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[2.179192] (prova_controller) StdoutLine: {'line': b'Installing EKF script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.179500] (prova_controller) StdoutLine: {'line': b'Installing EKF_t script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.179804] (prova_controller) StdoutLine: {'line': b'Installing ascolto_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.179965] (prova_controller) StdoutLine: {'line': b'Installing gpt_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.180073] (prova_controller) StdoutLine: {'line': b'Installing listener_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.180138] (prova_controller) StdoutLine: {'line': b'Installing offboard_controller_node script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.180202] (prova_controller) StdoutLine: {'line': b'Installing position_debug_node script to /root/controller_mine/install/prova_controller/lib/prova_controller\n'}
+[2.180443] (prova_controller) StdoutLine: {'line': b"writing list of installed files to '/root/controller_mine/build/prova_controller/install.log'\n"}
+[2.212200] (-) TimerEvent: {}
+[2.233187] (prova_controller) CommandEnded: {'returncode': 0}
+[2.257893] (prova_controller) JobEnded: {'identifier': 'prova_controller', 'rc': 0}
+[2.259763] (-) EventReactorShutdown: {}

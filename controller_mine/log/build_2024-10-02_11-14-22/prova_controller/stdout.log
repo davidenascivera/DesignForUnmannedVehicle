@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing prova_controller.egg-info/PKG-INFO
+writing dependency_links to prova_controller.egg-info/dependency_links.txt
+writing entry points to prova_controller.egg-info/entry_points.txt
+writing requirements to prova_controller.egg-info/requires.txt
+writing top-level names to prova_controller.egg-info/top_level.txt
+reading manifest file 'prova_controller.egg-info/SOURCES.txt'
+writing manifest file 'prova_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova-controller.egg-link (link to .)
+Installing EKF script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing EKF_t script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing ascolto_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing gpt_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing listener_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing offboard_controller_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+Installing position_debug_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+
+Installed /root/controller_mine/build/prova_controller
+running symlink_data
+symbolically linking /root/controller_mine/build/prova_controller/resource/prova_controller -> /root/controller_mine/install/prova_controller/share/ament_index/resource_index/packages
+symbolically linking /root/controller_mine/build/prova_controller/package.xml -> /root/controller_mine/install/prova_controller/share/prova_controller

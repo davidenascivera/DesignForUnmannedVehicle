@@ -1,0 +1,9 @@
+[console_scripts]
+EKF = prova_controller.EKF:main
+EKF_t = prova_controller.EKF_tmp:main
+ascolto_nodo = prova_controller.prova_listener:main
+gpt_nodo = prova_controller.gpt_node:main
+listener_nodo = prova_controller.listener_messages:main
+offboard_controller_node = prova_controller.offboard_controller:main
+position_debug_node = prova_controller.debugger_py:main
+

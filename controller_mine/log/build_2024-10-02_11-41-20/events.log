@@ -1,0 +1,629 @@
+[0.000000] (-) TimerEvent: {}
+[0.000684] (-) JobUnselected: {'identifier': 'prova_controller'}
+[0.000716] (-) JobUnselected: {'identifier': 'px4_offboard'}
+[0.000735] (-) JobUnselected: {'identifier': 'rosmsgs'}
+[0.000753] (position_gazebo_plugin) JobQueued: {'identifier': 'position_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000771] (position_gazebo_plugin) JobStarted: {'identifier': 'position_gazebo_plugin'}
+[0.017468] (position_gazebo_plugin) JobProgress: {'identifier': 'position_gazebo_plugin', 'progress': 'cmake'}
+[0.018367] (position_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/root/controller_mine/src/position_gazebo_plugin', '-DCMAKE_INSTALL_PREFIX=/root/controller_mine/install/position_gazebo_plugin'], 'cwd': '/root/controller_mine/build/position_gazebo_plugin', 'env': OrderedDict([('HOSTNAME', 'davide-XPS-15-9570'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('LOCAL_USER_ID', '1000'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-afc368cc-da6d-4582-8970-19f218a7dc33.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/controller_mine/install:/root/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-6caeb53bc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('AMENT_PREFIX_PATH', '/root/controller_mine/install/prova_controller:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/controller_mine/build/position_gazebo_plugin'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:'), ('PYTHONPATH', '/root/controller_mine/build/prova_controller:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/root/controller_mine/install/prova_controller:/opt/ros/humble')]), 'shell': False}
+[0.099554] (-) TimerEvent: {}
+[0.200289] (-) TimerEvent: {}
+[0.301770] (-) TimerEvent: {}
+[0.403939] (-) TimerEvent: {}
+[0.423091] (position_gazebo_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.506924] (-) TimerEvent: {}
+[0.607814] (-) TimerEvent: {}
+[0.708793] (-) TimerEvent: {}
+[0.809586] (-) TimerEvent: {}
+[0.830098] (position_gazebo_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.852145] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.909985] (-) TimerEvent: {}
+[1.011273] (-) TimerEvent: {}
+[1.057118] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.075315] (position_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.076570] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.077518] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.086817] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.111487] (-) TimerEvent: {}
+[1.212167] (-) TimerEvent: {}
+[1.293855] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.311554] (position_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.312364] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.312528] (-) TimerEvent: {}
+[1.313167] (position_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.331890] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.412760] (-) TimerEvent: {}
+[1.513595] (-) TimerEvent: {}
+[1.614851] (-) TimerEvent: {}
+[1.715782] (-) TimerEvent: {}
+[1.816412] (-) TimerEvent: {}
+[1.917271] (-) TimerEvent: {}
+[2.018185] (-) TimerEvent: {}
+[2.120064] (-) TimerEvent: {}
+[2.220934] (-) TimerEvent: {}
+[2.321820] (-) TimerEvent: {}
+[2.379674] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.421923] (-) TimerEvent: {}
+[2.522729] (-) TimerEvent: {}
+[2.623570] (-) TimerEvent: {}
+[2.724120] (-) TimerEvent: {}
+[2.756687] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.824332] (-) TimerEvent: {}
+[2.925385] (-) TimerEvent: {}
+[2.926568] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.947501] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.979072] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.025491] (-) TimerEvent: {}
+[3.027966] (position_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.086038] (position_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.125592] (-) TimerEvent: {}
+[3.225949] (-) TimerEvent: {}
+[3.230552] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.245866] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.326073] (-) TimerEvent: {}
+[3.426641] (-) TimerEvent: {}
+[3.527100] (-) TimerEvent: {}
+[3.538871] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.627302] (-) TimerEvent: {}
+[3.631667] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.727526] (-) TimerEvent: {}
+[3.743149] (position_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.779654] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.827793] (-) TimerEvent: {}
+[3.928698] (-) TimerEvent: {}
+[3.967294] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.967798] (position_gazebo_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.029026] (-) TimerEvent: {}
+[4.130039] (-) TimerEvent: {}
+[4.178332] (position_gazebo_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.183990] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.230206] (-) TimerEvent: {}
+[4.331090] (-) TimerEvent: {}
+[4.431734] (-) TimerEvent: {}
+[4.454358] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.458786] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.495845] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.531843] (-) TimerEvent: {}
+[4.632506] (-) TimerEvent: {}
+[4.733679] (-) TimerEvent: {}
+[4.817607] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.833797] (-) TimerEvent: {}
+[4.934374] (-) TimerEvent: {}
+[4.969037] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[5.034495] (-) TimerEvent: {}
+[5.071218] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[5.134665] (-) TimerEvent: {}
+[5.191786] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.234926] (-) TimerEvent: {}
+[5.242082] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.267767] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.293787] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.297910] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.300520] (position_gazebo_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.319942] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.335243] (-) TimerEvent: {}
+[5.372509] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.435367] (-) TimerEvent: {}
+[5.478273] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.499799] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.527979] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.535744] (-) TimerEvent: {}
+[5.543205] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.543665] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.567926] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.568443] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.584255] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.584615] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.600434] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.600737] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.619689] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.619920] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.633822] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.635721] (-) TimerEvent: {}
+[5.736617] (-) TimerEvent: {}
+[5.837983] (-) TimerEvent: {}
+[5.912349] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.921703] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.922779] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.938320] (-) TimerEvent: {}
+[5.967407] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[6.003099] (position_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[6.013513] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[6.038673] (-) TimerEvent: {}
+[6.050678] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[6.138943] (-) TimerEvent: {}
+[6.163391] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[6.184034] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[6.222617] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[6.239328] (-) TimerEvent: {}
+[6.325143] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[6.333753] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.334605] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[6.339424] (-) TimerEvent: {}
+[6.391388] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.405402] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.434295] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.439808] (-) TimerEvent: {}
+[6.539133] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.539850] (-) TimerEvent: {}
+[6.547442] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.549548] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[6.551401] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.556132] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.562224] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[6.597130] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[6.598376] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[6.609251] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[6.610177] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[6.610874] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.622579] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[6.623848] (position_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[6.640053] (-) TimerEvent: {}
+[6.740681] (-) TimerEvent: {}
+[6.831179] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[6.840868] (-) TimerEvent: {}
+[6.859457] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.904231] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[6.941219] (-) TimerEvent: {}
+[6.996927] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[7.017103] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[7.041484] (-) TimerEvent: {}
+[7.050652] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[7.141871] (-) TimerEvent: {}
+[7.158193] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[7.160747] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.162846] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.164009] (position_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.176278] (position_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[7.176875] (position_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[7.213309] (position_gazebo_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[7.241959] (-) TimerEvent: {}
+[7.310251] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.342137] (-) TimerEvent: {}
+[7.348002] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[7.406105] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.442462] (-) TimerEvent: {}
+[7.444586] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.474671] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.478787] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.479069] (position_gazebo_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.542610] (-) TimerEvent: {}
+[7.643099] (-) TimerEvent: {}
+[7.743514] (-) TimerEvent: {}
+[7.803420] (position_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.843671] (-) TimerEvent: {}
+[7.944090] (-) TimerEvent: {}
+[8.044536] (-) TimerEvent: {}
+[8.145025] (-) TimerEvent: {}
+[8.154952] (position_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.156062] (position_gazebo_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/controller_mine/src/position_gazebo_plugin/include\n'}
+[8.156282] (position_gazebo_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.160780] (position_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.172869] (position_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.173477] (position_gazebo_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.175257] (position_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.180110] (position_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.245145] (-) TimerEvent: {}
+[8.285575] (position_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[8.293772] (position_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /root/controller_mine/build/position_gazebo_plugin\n'}
+[8.345976] (-) TimerEvent: {}
+[8.348880] (position_gazebo_plugin) CommandEnded: {'returncode': 0}
+[8.350079] (position_gazebo_plugin) JobProgress: {'identifier': 'position_gazebo_plugin', 'progress': 'build'}
+[8.352538] (position_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/controller_mine/build/position_gazebo_plugin', '--', '-j12', '-l12'], 'cwd': '/root/controller_mine/build/position_gazebo_plugin', 'env': OrderedDict([('HOSTNAME', 'davide-XPS-15-9570'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('LOCAL_USER_ID', '1000'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-afc368cc-da6d-4582-8970-19f218a7dc33.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/controller_mine/install:/root/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-6caeb53bc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('AMENT_PREFIX_PATH', '/root/controller_mine/install/prova_controller:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/controller_mine/build/position_gazebo_plugin'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:'), ('PYTHONPATH', '/root/controller_mine/build/prova_controller:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/root/controller_mine/install/prova_controller:/opt/ros/humble')]), 'shell': False}
+[8.446265] (-) TimerEvent: {}
+[8.499168] (position_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_plugin.dir/src/position_gazebo_plugin.cpp.o\x1b[0m\n'}
+[8.546316] (-) TimerEvent: {}
+[8.646874] (-) TimerEvent: {}
+[8.747532] (-) TimerEvent: {}
+[8.848139] (-) TimerEvent: {}
+[8.948922] (-) TimerEvent: {}
+[9.049770] (-) TimerEvent: {}
+[9.151968] (-) TimerEvent: {}
+[9.255252] (-) TimerEvent: {}
+[9.356849] (-) TimerEvent: {}
+[9.457828] (-) TimerEvent: {}
+[9.559058] (-) TimerEvent: {}
+[9.659932] (-) TimerEvent: {}
+[9.760912] (-) TimerEvent: {}
+[9.861727] (-) TimerEvent: {}
+[9.962151] (-) TimerEvent: {}
+[10.062927] (-) TimerEvent: {}
+[10.163995] (-) TimerEvent: {}
+[10.267093] (-) TimerEvent: {}
+[10.368419] (-) TimerEvent: {}
+[10.471906] (-) TimerEvent: {}
+[10.573277] (-) TimerEvent: {}
+[10.674481] (-) TimerEvent: {}
+[10.775282] (-) TimerEvent: {}
+[10.875912] (-) TimerEvent: {}
+[10.976376] (-) TimerEvent: {}
+[11.076972] (-) TimerEvent: {}
+[11.177349] (-) TimerEvent: {}
+[11.277814] (-) TimerEvent: {}
+[11.378327] (-) TimerEvent: {}
+[11.479465] (-) TimerEvent: {}
+[11.580072] (-) TimerEvent: {}
+[11.681084] (-) TimerEvent: {}
+[11.781569] (-) TimerEvent: {}
+[11.882010] (-) TimerEvent: {}
+[11.982988] (-) TimerEvent: {}
+[12.084044] (-) TimerEvent: {}
+[12.184535] (-) TimerEvent: {}
+[12.285032] (-) TimerEvent: {}
+[12.385478] (-) TimerEvent: {}
+[12.485902] (-) TimerEvent: {}
+[12.586519] (-) TimerEvent: {}
+[12.687851] (-) TimerEvent: {}
+[12.788778] (-) TimerEvent: {}
+[12.889718] (-) TimerEvent: {}
+[12.990347] (-) TimerEvent: {}
+[13.091059] (-) TimerEvent: {}
+[13.191912] (-) TimerEvent: {}
+[13.293982] (-) TimerEvent: {}
+[13.394486] (-) TimerEvent: {}
+[13.495601] (-) TimerEvent: {}
+[13.596347] (-) TimerEvent: {}
+[13.696747] (-) TimerEvent: {}
+[13.797128] (-) TimerEvent: {}
+[13.898000] (-) TimerEvent: {}
+[13.999565] (-) TimerEvent: {}
+[14.100173] (-) TimerEvent: {}
+[14.200745] (-) TimerEvent: {}
+[14.301797] (-) TimerEvent: {}
+[14.402268] (-) TimerEvent: {}
+[14.508969] (-) TimerEvent: {}
+[14.611467] (-) TimerEvent: {}
+[14.712768] (-) TimerEvent: {}
+[14.813749] (-) TimerEvent: {}
+[14.914396] (-) TimerEvent: {}
+[15.015282] (-) TimerEvent: {}
+[15.116042] (-) TimerEvent: {}
+[15.217079] (-) TimerEvent: {}
+[15.317522] (-) TimerEvent: {}
+[15.417954] (-) TimerEvent: {}
+[15.518560] (-) TimerEvent: {}
+[15.619178] (-) TimerEvent: {}
+[15.719495] (-) TimerEvent: {}
+[15.820111] (-) TimerEvent: {}
+[15.922178] (-) TimerEvent: {}
+[16.022915] (-) TimerEvent: {}
+[16.123789] (-) TimerEvent: {}
+[16.224895] (-) TimerEvent: {}
+[16.325528] (-) TimerEvent: {}
+[16.426229] (-) TimerEvent: {}
+[16.527782] (-) TimerEvent: {}
+[16.628165] (-) TimerEvent: {}
+[16.728458] (-) TimerEvent: {}
+[16.828988] (-) TimerEvent: {}
+[16.930008] (-) TimerEvent: {}
+[17.030508] (-) TimerEvent: {}
+[17.131203] (-) TimerEvent: {}
+[17.231989] (-) TimerEvent: {}
+[17.332320] (-) TimerEvent: {}
+[17.433045] (-) TimerEvent: {}
+[17.534266] (-) TimerEvent: {}
+[17.634925] (-) TimerEvent: {}
+[17.735227] (-) TimerEvent: {}
+[17.835677] (-) TimerEvent: {}
+[17.936238] (-) TimerEvent: {}
+[18.036511] (-) TimerEvent: {}
+[18.136996] (-) TimerEvent: {}
+[18.239110] (-) TimerEvent: {}
+[18.340018] (-) TimerEvent: {}
+[18.440823] (-) TimerEvent: {}
+[18.541418] (-) TimerEvent: {}
+[18.641892] (-) TimerEvent: {}
+[18.742148] (-) TimerEvent: {}
+[18.842564] (-) TimerEvent: {}
+[18.943927] (-) TimerEvent: {}
+[19.044635] (-) TimerEvent: {}
+[19.145090] (-) TimerEvent: {}
+[19.246256] (-) TimerEvent: {}
+[19.347472] (-) TimerEvent: {}
+[19.448040] (-) TimerEvent: {}
+[19.548437] (-) TimerEvent: {}
+[19.648798] (-) TimerEvent: {}
+[19.749222] (-) TimerEvent: {}
+[19.849922] (-) TimerEvent: {}
+[19.950915] (-) TimerEvent: {}
+[20.051324] (-) TimerEvent: {}
+[20.151737] (-) TimerEvent: {}
+[20.252091] (-) TimerEvent: {}
+[20.352799] (-) TimerEvent: {}
+[20.453342] (-) TimerEvent: {}
+[20.553944] (-) TimerEvent: {}
+[20.656236] (-) TimerEvent: {}
+[20.757566] (-) TimerEvent: {}
+[20.858916] (-) TimerEvent: {}
+[20.960053] (-) TimerEvent: {}
+[21.061030] (-) TimerEvent: {}
+[21.161524] (-) TimerEvent: {}
+[21.261995] (-) TimerEvent: {}
+[21.362335] (-) TimerEvent: {}
+[21.462696] (-) TimerEvent: {}
+[21.563251] (-) TimerEvent: {}
+[21.664040] (-) TimerEvent: {}
+[21.764519] (-) TimerEvent: {}
+[21.864944] (-) TimerEvent: {}
+[21.965291] (-) TimerEvent: {}
+[22.065741] (-) TimerEvent: {}
+[22.166505] (-) TimerEvent: {}
+[22.267014] (-) TimerEvent: {}
+[22.367610] (-) TimerEvent: {}
+[22.468399] (-) TimerEvent: {}
+[22.568938] (-) TimerEvent: {}
+[22.670254] (-) TimerEvent: {}
+[22.770579] (-) TimerEvent: {}
+[22.871139] (-) TimerEvent: {}
+[22.971562] (-) TimerEvent: {}
+[23.072309] (-) TimerEvent: {}
+[23.172831] (-) TimerEvent: {}
+[23.273422] (-) TimerEvent: {}
+[23.374638] (-) TimerEvent: {}
+[23.475108] (-) TimerEvent: {}
+[23.575389] (-) TimerEvent: {}
+[23.675717] (-) TimerEvent: {}
+[23.776497] (-) TimerEvent: {}
+[23.877356] (-) TimerEvent: {}
+[23.977975] (-) TimerEvent: {}
+[24.078711] (-) TimerEvent: {}
+[24.179129] (-) TimerEvent: {}
+[24.279705] (-) TimerEvent: {}
+[24.380431] (-) TimerEvent: {}
+[24.481023] (-) TimerEvent: {}
+[24.581884] (-) TimerEvent: {}
+[24.682521] (-) TimerEvent: {}
+[24.783426] (-) TimerEvent: {}
+[24.884555] (-) TimerEvent: {}
+[24.985165] (-) TimerEvent: {}
+[25.085553] (-) TimerEvent: {}
+[25.186277] (-) TimerEvent: {}
+[25.286787] (-) TimerEvent: {}
+[25.387564] (-) TimerEvent: {}
+[25.488253] (-) TimerEvent: {}
+[25.589360] (-) TimerEvent: {}
+[25.690051] (-) TimerEvent: {}
+[25.791403] (-) TimerEvent: {}
+[25.892176] (-) TimerEvent: {}
+[25.992888] (-) TimerEvent: {}
+[26.093361] (-) TimerEvent: {}
+[26.194248] (-) TimerEvent: {}
+[26.294587] (-) TimerEvent: {}
+[26.395073] (-) TimerEvent: {}
+[26.495582] (-) TimerEvent: {}
+[26.596139] (-) TimerEvent: {}
+[26.696583] (-) TimerEvent: {}
+[26.797313] (-) TimerEvent: {}
+[26.897656] (-) TimerEvent: {}
+[26.997946] (-) TimerEvent: {}
+[27.098424] (-) TimerEvent: {}
+[27.199780] (-) TimerEvent: {}
+[27.300174] (-) TimerEvent: {}
+[27.400570] (-) TimerEvent: {}
+[27.501123] (-) TimerEvent: {}
+[27.601716] (-) TimerEvent: {}
+[27.702022] (-) TimerEvent: {}
+[27.802489] (-) TimerEvent: {}
+[27.903416] (-) TimerEvent: {}
+[28.003733] (-) TimerEvent: {}
+[28.104041] (-) TimerEvent: {}
+[28.204521] (-) TimerEvent: {}
+[28.305082] (-) TimerEvent: {}
+[28.405642] (-) TimerEvent: {}
+[28.506854] (-) TimerEvent: {}
+[28.608036] (-) TimerEvent: {}
+[28.708329] (-) TimerEvent: {}
+[28.808614] (-) TimerEvent: {}
+[28.909401] (-) TimerEvent: {}
+[29.010173] (-) TimerEvent: {}
+[29.110698] (-) TimerEvent: {}
+[29.210968] (-) TimerEvent: {}
+[29.311694] (-) TimerEvent: {}
+[29.412050] (-) TimerEvent: {}
+[29.512311] (-) TimerEvent: {}
+[29.612736] (-) TimerEvent: {}
+[29.713311] (-) TimerEvent: {}
+[29.813725] (-) TimerEvent: {}
+[29.914241] (-) TimerEvent: {}
+[30.015490] (-) TimerEvent: {}
+[30.115992] (-) TimerEvent: {}
+[30.216333] (-) TimerEvent: {}
+[30.316666] (-) TimerEvent: {}
+[30.417081] (-) TimerEvent: {}
+[30.517444] (-) TimerEvent: {}
+[30.618121] (-) TimerEvent: {}
+[30.719401] (-) TimerEvent: {}
+[30.819842] (-) TimerEvent: {}
+[30.920196] (-) TimerEvent: {}
+[31.020644] (-) TimerEvent: {}
+[31.121278] (-) TimerEvent: {}
+[31.222167] (-) TimerEvent: {}
+[31.323722] (-) TimerEvent: {}
+[31.424709] (-) TimerEvent: {}
+[31.525442] (-) TimerEvent: {}
+[31.626154] (-) TimerEvent: {}
+[31.727329] (-) TimerEvent: {}
+[31.828022] (-) TimerEvent: {}
+[31.928413] (-) TimerEvent: {}
+[32.028812] (-) TimerEvent: {}
+[32.129303] (-) TimerEvent: {}
+[32.229781] (-) TimerEvent: {}
+[32.330255] (-) TimerEvent: {}
+[32.431273] (-) TimerEvent: {}
+[32.531701] (-) TimerEvent: {}
+[32.632129] (-) TimerEvent: {}
+[32.732587] (-) TimerEvent: {}
+[32.833190] (-) TimerEvent: {}
+[32.933595] (-) TimerEvent: {}
+[33.034295] (-) TimerEvent: {}
+[33.135334] (-) TimerEvent: {}
+[33.236083] (-) TimerEvent: {}
+[33.337093] (-) TimerEvent: {}
+[33.437757] (-) TimerEvent: {}
+[33.538348] (-) TimerEvent: {}
+[33.638670] (-) TimerEvent: {}
+[33.738997] (-) TimerEvent: {}
+[33.839502] (-) TimerEvent: {}
+[33.940521] (-) TimerEvent: {}
+[34.040818] (-) TimerEvent: {}
+[34.141325] (-) TimerEvent: {}
+[34.242035] (-) TimerEvent: {}
+[34.343043] (-) TimerEvent: {}
+[34.443923] (-) TimerEvent: {}
+[34.544989] (-) TimerEvent: {}
+[34.645834] (-) TimerEvent: {}
+[34.746352] (-) TimerEvent: {}
+[34.847560] (-) TimerEvent: {}
+[34.947914] (-) TimerEvent: {}
+[35.048475] (-) TimerEvent: {}
+[35.149501] (-) TimerEvent: {}
+[35.249887] (-) TimerEvent: {}
+[35.350274] (-) TimerEvent: {}
+[35.451039] (-) TimerEvent: {}
+[35.551513] (-) TimerEvent: {}
+[35.652118] (-) TimerEvent: {}
+[35.752489] (-) TimerEvent: {}
+[35.853120] (-) TimerEvent: {}
+[35.953474] (-) TimerEvent: {}
+[36.053871] (-) TimerEvent: {}
+[36.154587] (-) TimerEvent: {}
+[36.255869] (-) TimerEvent: {}
+[36.356377] (-) TimerEvent: {}
+[36.457188] (-) TimerEvent: {}
+[36.557658] (-) TimerEvent: {}
+[36.658027] (-) TimerEvent: {}
+[36.758594] (-) TimerEvent: {}
+[36.859474] (-) TimerEvent: {}
+[36.960460] (-) TimerEvent: {}
+[37.061005] (-) TimerEvent: {}
+[37.161471] (-) TimerEvent: {}
+[37.261884] (-) TimerEvent: {}
+[37.362178] (-) TimerEvent: {}
+[37.462456] (-) TimerEvent: {}
+[37.563001] (-) TimerEvent: {}
+[37.664408] (-) TimerEvent: {}
+[37.764752] (-) TimerEvent: {}
+[37.865258] (-) TimerEvent: {}
+[37.966813] (-) TimerEvent: {}
+[38.067355] (-) TimerEvent: {}
+[38.167605] (-) TimerEvent: {}
+[38.268041] (-) TimerEvent: {}
+[38.368524] (-) TimerEvent: {}
+[38.469196] (-) TimerEvent: {}
+[38.570202] (-) TimerEvent: {}
+[38.671268] (-) TimerEvent: {}
+[38.771668] (-) TimerEvent: {}
+[38.871949] (-) TimerEvent: {}
+[38.972309] (-) TimerEvent: {}
+[39.072667] (-) TimerEvent: {}
+[39.173001] (-) TimerEvent: {}
+[39.273312] (-) TimerEvent: {}
+[39.373854] (-) TimerEvent: {}
+[39.475332] (-) TimerEvent: {}
+[39.575948] (-) TimerEvent: {}
+[39.676304] (-) TimerEvent: {}
+[39.776789] (-) TimerEvent: {}
+[39.877129] (-) TimerEvent: {}
+[39.977415] (-) TimerEvent: {}
+[40.077934] (-) TimerEvent: {}
+[40.178479] (-) TimerEvent: {}
+[40.278845] (-) TimerEvent: {}
+[40.379389] (-) TimerEvent: {}
+[40.480309] (-) TimerEvent: {}
+[40.581193] (-) TimerEvent: {}
+[40.681740] (-) TimerEvent: {}
+[40.782096] (-) TimerEvent: {}
+[40.882792] (-) TimerEvent: {}
+[40.983772] (-) TimerEvent: {}
+[41.084349] (-) TimerEvent: {}
+[41.184615] (-) TimerEvent: {}
+[41.285008] (-) TimerEvent: {}
+[41.385315] (-) TimerEvent: {}
+[41.485746] (-) TimerEvent: {}
+[41.586124] (-) TimerEvent: {}
+[41.686406] (-) TimerEvent: {}
+[41.786960] (-) TimerEvent: {}
+[41.888460] (-) TimerEvent: {}
+[41.989061] (-) TimerEvent: {}
+[42.089305] (-) TimerEvent: {}
+[42.189835] (-) TimerEvent: {}
+[42.290501] (-) TimerEvent: {}
+[42.390812] (-) TimerEvent: {}
+[42.491609] (-) TimerEvent: {}
+[42.592282] (-) TimerEvent: {}
+[42.692742] (-) TimerEvent: {}
+[42.793408] (-) TimerEvent: {}
+[42.893959] (-) TimerEvent: {}
+[42.994836] (-) TimerEvent: {}
+[43.095123] (-) TimerEvent: {}
+[43.195578] (-) TimerEvent: {}
+[43.296300] (-) TimerEvent: {}
+[43.396726] (-) TimerEvent: {}
+[43.497104] (-) TimerEvent: {}
+[43.597709] (-) TimerEvent: {}
+[43.698246] (-) TimerEvent: {}
+[43.798668] (-) TimerEvent: {}
+[43.899385] (-) TimerEvent: {}
+[44.000021] (-) TimerEvent: {}
+[44.100356] (-) TimerEvent: {}
+[44.200883] (-) TimerEvent: {}
+[44.301567] (-) TimerEvent: {}
+[44.402041] (-) TimerEvent: {}
+[44.403094] (position_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libposition_plugin.so\x1b[0m\n'}
+[44.502285] (-) TimerEvent: {}
+[44.602990] (-) TimerEvent: {}
+[44.703989] (-) TimerEvent: {}
+[44.804670] (-) TimerEvent: {}
+[44.905336] (-) TimerEvent: {}
+[45.006089] (-) TimerEvent: {}
+[45.106725] (-) TimerEvent: {}
+[45.207667] (-) TimerEvent: {}
+[45.308559] (-) TimerEvent: {}
+[45.409289] (-) TimerEvent: {}
+[45.509839] (-) TimerEvent: {}
+[45.610685] (-) TimerEvent: {}
+[45.711251] (-) TimerEvent: {}
+[45.812416] (-) TimerEvent: {}
+[45.912956] (-) TimerEvent: {}
+[46.014473] (-) TimerEvent: {}
+[46.115455] (-) TimerEvent: {}
+[46.216923] (-) TimerEvent: {}
+[46.318045] (-) TimerEvent: {}
+[46.419766] (-) TimerEvent: {}
+[46.520372] (-) TimerEvent: {}
+[46.620969] (-) TimerEvent: {}
+[46.721534] (-) TimerEvent: {}
+[46.778724] (position_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target position_plugin\n'}
+[46.811885] (position_gazebo_plugin) CommandEnded: {'returncode': 0}
+[46.821764] (-) TimerEvent: {}
+[46.886492] (position_gazebo_plugin) JobProgress: {'identifier': 'position_gazebo_plugin', 'progress': 'install'}
+[46.911519] (position_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/controller_mine/build/position_gazebo_plugin'], 'cwd': '/root/controller_mine/build/position_gazebo_plugin', 'env': OrderedDict([('HOSTNAME', 'davide-XPS-15-9570'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('LOCAL_USER_ID', '1000'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-afc368cc-da6d-4582-8970-19f218a7dc33.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/controller_mine/install:/root/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-6caeb53bc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a5944b3e-1d4c-4255-8a9a-07c98a74c3fe.sock'), ('AMENT_PREFIX_PATH', '/root/controller_mine/install/prova_controller:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/controller_mine/build/position_gazebo_plugin'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:/root:/root/controller_mine/build/position_gazebo_plugin:'), ('PYTHONPATH', '/root/controller_mine/build/prova_controller:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/px4_msgs:/root/controller_mine/install/prova_controller:/opt/ros/humble')]), 'shell': False}
+[46.921879] (-) TimerEvent: {}
+[46.936753] (position_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.937223] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/library_path.sh\n'}
+[46.937587] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/library_path.dsv\n'}
+[46.938013] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/lib/position_gazebo_plugin/libposition_plugin.so\n'}
+[46.949471] (position_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/root/controller_mine/install/position_gazebo_plugin/lib/position_gazebo_plugin/libposition_plugin.so" to ""\n'}
+[46.950181] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/include\n'}
+[46.950465] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/include/position_gazebo_plugin.hpp\n'}
+[46.950883] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/position_gazebo_plugin\n'}
+[46.952081] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/position_gazebo_plugin\n'}
+[46.952663] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[46.952934] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[46.953246] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/path.sh\n'}
+[46.953579] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/environment/path.dsv\n'}
+[46.953856] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/local_setup.bash\n'}
+[46.954407] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/local_setup.sh\n'}
+[46.954877] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/local_setup.zsh\n'}
+[46.955962] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/local_setup.dsv\n'}
+[46.959603] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/package.dsv\n'}
+[46.959967] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/ament_index/resource_index/packages/position_gazebo_plugin\n'}
+[46.960878] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[46.961292] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[46.961660] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/cmake/position_gazebo_pluginConfig.cmake\n'}
+[46.962068] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/cmake/position_gazebo_pluginConfig-version.cmake\n'}
+[46.962541] (position_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /root/controller_mine/install/position_gazebo_plugin/share/position_gazebo_plugin/package.xml\n'}
+[46.968931] (position_gazebo_plugin) CommandEnded: {'returncode': 0}
+[47.022211] (-) TimerEvent: {}
+[47.111732] (position_gazebo_plugin) JobEnded: {'identifier': 'position_gazebo_plugin', 'rc': 0}
+[47.113208] (-) EventReactorShutdown: {}

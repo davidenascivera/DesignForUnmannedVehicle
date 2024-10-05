@@ -1,0 +1,27 @@
+[1.305s] Invoking command in '/root/controller_mine/build/prova_controller': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/controller_mine/build/prova_controller/build --no-deps symlink_data --force
+[2.085s] running develop
+[2.087s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.087s]   warnings.warn(
+[2.389s] running egg_info
+[2.390s] writing prova_controller.egg-info/PKG-INFO
+[2.390s] writing dependency_links to prova_controller.egg-info/dependency_links.txt
+[2.390s] writing entry points to prova_controller.egg-info/entry_points.txt
+[2.390s] writing requirements to prova_controller.egg-info/requires.txt
+[2.390s] writing top-level names to prova_controller.egg-info/top_level.txt
+[2.393s] reading manifest file 'prova_controller.egg-info/SOURCES.txt'
+[2.395s] writing manifest file 'prova_controller.egg-info/SOURCES.txt'
+[2.400s] running build_ext
+[2.401s] Creating /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova-controller.egg-link (link to .)
+[2.403s] Installing EKF script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.403s] Installing EKF_t script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.403s] Installing ascolto_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.403s] Installing gpt_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.404s] Installing listener_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.404s] Installing offboard_controller_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.405s] Installing position_debug_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.406s] 
+[2.406s] Installed /root/controller_mine/build/prova_controller
+[2.406s] running symlink_data
+[2.406s] symbolically linking /root/controller_mine/build/prova_controller/resource/prova_controller -> /root/controller_mine/install/prova_controller/share/ament_index/resource_index/packages
+[2.407s] symbolically linking /root/controller_mine/build/prova_controller/package.xml -> /root/controller_mine/install/prova_controller/share/prova_controller
+[2.506s] Invoked command in '/root/controller_mine/build/prova_controller' returned '0': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/controller_mine/build/prova_controller/build --no-deps symlink_data --force

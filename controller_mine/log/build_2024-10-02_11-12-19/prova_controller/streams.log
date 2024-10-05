@@ -1,0 +1,30 @@
+[1.460s] Invoking command in '/root/controller_mine/src/prova_controller': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova_controller build --build-base /root/controller_mine/build/prova_controller/build install --record /root/controller_mine/build/prova_controller/install.log --single-version-externally-managed install_data
+[2.211s] running egg_info
+[2.212s] writing ../../build/prova_controller/prova_controller.egg-info/PKG-INFO
+[2.213s] writing dependency_links to ../../build/prova_controller/prova_controller.egg-info/dependency_links.txt
+[2.213s] writing entry points to ../../build/prova_controller/prova_controller.egg-info/entry_points.txt
+[2.213s] writing requirements to ../../build/prova_controller/prova_controller.egg-info/requires.txt
+[2.213s] writing top-level names to ../../build/prova_controller/prova_controller.egg-info/top_level.txt
+[2.218s] reading manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'
+[2.221s] writing manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'
+[2.221s] running build
+[2.221s] running build_py
+[2.222s] copying prova_controller/EKF_tmp.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[2.222s] running install
+[2.223s] running install_lib
+[2.224s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/EKF_tmp.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[2.226s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/EKF_tmp.py to EKF_tmp.cpython-310.pyc
+[2.232s] running install_data
+[2.232s] running install_egg_info
+[2.235s] removing '/root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.235s] Copying ../../build/prova_controller/prova_controller.egg-info to /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller-0.0.0-py3.10.egg-info
+[2.239s] running install_scripts
+[2.290s] Installing EKF script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.291s] Installing EKF_t script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.292s] Installing ascolto_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.292s] Installing gpt_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.292s] Installing listener_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.293s] Installing offboard_controller_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.293s] Installing position_debug_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[2.293s] writing list of installed files to '/root/controller_mine/build/prova_controller/install.log'
+[2.385s] Invoked command in '/root/controller_mine/src/prova_controller' returned '0': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova_controller build --build-base /root/controller_mine/build/prova_controller/build install --record /root/controller_mine/build/prova_controller/install.log --single-version-externally-managed install_data

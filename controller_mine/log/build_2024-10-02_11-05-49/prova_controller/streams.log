@@ -1,0 +1,61 @@
+[2.373s] Invoking command in '/root/controller_mine/src/prova_controller': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova_controller build --build-base /root/controller_mine/build/prova_controller/build install --record /root/controller_mine/build/prova_controller/install.log --single-version-externally-managed install_data
+[3.233s] running egg_info
+[3.234s] creating ../../build/prova_controller/prova_controller.egg-info
+[3.235s] writing ../../build/prova_controller/prova_controller.egg-info/PKG-INFO
+[3.238s] writing dependency_links to ../../build/prova_controller/prova_controller.egg-info/dependency_links.txt
+[3.239s] writing entry points to ../../build/prova_controller/prova_controller.egg-info/entry_points.txt
+[3.240s] writing requirements to ../../build/prova_controller/prova_controller.egg-info/requires.txt
+[3.240s] writing top-level names to ../../build/prova_controller/prova_controller.egg-info/top_level.txt
+[3.241s] writing manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'
+[3.246s] reading manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'
+[3.248s] writing manifest file '../../build/prova_controller/prova_controller.egg-info/SOURCES.txt'
+[3.249s] running build
+[3.249s] running build_py
+[3.249s] creating /root/controller_mine/build/prova_controller/build
+[3.249s] creating /root/controller_mine/build/prova_controller/build/lib
+[3.249s] creating /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.249s] copying prova_controller/prova_listener.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.250s] copying prova_controller/offboard_controller.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.250s] copying prova_controller/listener_messages.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.250s] copying prova_controller/debugger_py.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.250s] copying prova_controller/gpt_node.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.251s] copying prova_controller/__init__.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.251s] copying prova_controller/EKF.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.251s] copying prova_controller/EKF_tmp.py -> /root/controller_mine/build/prova_controller/build/lib/prova_controller
+[3.253s] running install
+[3.254s] running install_lib
+[3.259s] creating /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.260s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/prova_listener.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.260s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/offboard_controller.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.262s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/listener_messages.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.264s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/debugger_py.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.264s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/EKF.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.264s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/gpt_node.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.264s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/EKF_tmp.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.264s] copying /root/controller_mine/build/prova_controller/build/lib/prova_controller/__init__.py -> /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller
+[3.265s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/prova_listener.py to prova_listener.cpython-310.pyc
+[3.265s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/offboard_controller.py to offboard_controller.cpython-310.pyc
+[3.268s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/listener_messages.py to listener_messages.cpython-310.pyc
+[3.270s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/debugger_py.py to debugger_py.cpython-310.pyc
+[3.272s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/EKF.py to EKF.cpython-310.pyc
+[3.274s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/gpt_node.py to gpt_node.cpython-310.pyc
+[3.274s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/EKF_tmp.py to EKF_tmp.cpython-310.pyc
+[3.277s] byte-compiling /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller/__init__.py to __init__.cpython-310.pyc
+[3.278s] running install_data
+[3.279s] creating /root/controller_mine/install/prova_controller/share/ament_index
+[3.279s] creating /root/controller_mine/install/prova_controller/share/ament_index/resource_index
+[3.279s] creating /root/controller_mine/install/prova_controller/share/ament_index/resource_index/packages
+[3.280s] copying resource/prova_controller -> /root/controller_mine/install/prova_controller/share/ament_index/resource_index/packages
+[3.280s] copying package.xml -> /root/controller_mine/install/prova_controller/share/prova_controller
+[3.280s] running install_egg_info
+[3.285s] Copying ../../build/prova_controller/prova_controller.egg-info to /root/controller_mine/install/prova_controller/lib/python3.10/site-packages/prova_controller-0.0.0-py3.10.egg-info
+[3.293s] running install_scripts
+[3.361s] Installing EKF script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.362s] Installing EKF_t script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.362s] Installing ascolto_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.363s] Installing gpt_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.363s] Installing listener_nodo script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.364s] Installing offboard_controller_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.364s] Installing position_debug_node script to /root/controller_mine/install/prova_controller/lib/prova_controller
+[3.365s] writing list of installed files to '/root/controller_mine/build/prova_controller/install.log'
+[3.493s] Invoked command in '/root/controller_mine/src/prova_controller' returned '0': PYTHONPATH=/root/controller_mine/build/prova_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/controller_mine/install/prova_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova_controller build --build-base /root/controller_mine/build/prova_controller/build install --record /root/controller_mine/build/prova_controller/install.log --single-version-externally-managed install_data
