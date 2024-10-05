@@ -35,7 +35,7 @@ The entire project was simulated within a PX4 environment to ensure realistic pe
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/davidenascivera/DesignForUnmannedVehicle
 cd DesignForUnmannedVehicle
 ```
 
